@@ -1,0 +1,59 @@
+body {
+    margin: 0%;
+    background-color: rgba(255, 255, 255, 0.548);
+}
+
+video {
+    position: fixed;
+}
+
+div {
+    position: absolute;
+    top: 15%;
+    left: 35%;
+    min-width: 350px;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding-left: 40px;
+}
+
+input {
+    width: 300px;
+    min-width: 100px;
+    border: none;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: whitesmoke;
+    font-size: 20px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+input:focus {
+    outline: none;
+    color: white;
+    background-color: rgba(70, 130, 180, 0.35);
+}
+
+.btn {
+    margin: 20px;
+    width: 80px;
+    border-radius: 4px;
+    border: none;
+    height: 40px;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    background-color: rgb(248, 122, 248);
+    cursor: pointer;
+
+}
+
+.btn:focus{
+    background-color: rgb(125, 96, 152);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
